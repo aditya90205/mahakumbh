@@ -128,7 +128,7 @@ const Navbar = () => {
 
         {/* Mobile menu */}
         {isOpen && (
-          <div className="md:hidden bg-orange-500 text-white absolute top-25 left-0 w-full h-[] z-40 transition-transform duration-300">
+          <div className="md:hidden bg-orange-500 text-white absolute top-42 left-0 w-full h-[] z-40 transition-transform duration-300">
             <div className="flex flex-col items-start space-y-4 px-6 py-4 text-lg">
               <a href="#" className="hover:underline" onClick={toggleMenu}>
                 Home
